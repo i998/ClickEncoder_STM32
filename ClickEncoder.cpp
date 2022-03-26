@@ -64,7 +64,7 @@ ClickEncoder::ClickEncoder(uint8_t A, uint8_t B, uint8_t BTN, uint8_t stepsPerNo
   
 
     // Core test 
-	#if defined (ARDUINO_ARCH_STM32F1) ||  defined(ARDUINO_ARCH_STM32F4) || defined ARDUINO_ARCH_STM32   //Roger Clark "libmaple core" or  Roger Clark "libmaple f4 core" or official "stm32duino core"
+	#if defined (ARDUINO_ARCH_STM32F1) ||  defined(ARDUINO_ARCH_STM32F4) || defined (ARDUINO_ARCH_STM32)   //Roger Clark "libmaple core" or  Roger Clark "libmaple f4 core" or official "stm32duino core"
    
 		  if (pinsActive == LOW)
 		  {
