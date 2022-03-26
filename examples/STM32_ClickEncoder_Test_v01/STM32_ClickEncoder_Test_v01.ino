@@ -16,7 +16,8 @@ By default, active signals from Encoder and its button are LOW (i.e Encoder pins
 
 If a LCD display is used:
 Maple Mini Pin 0 <--> I2C Display SDA  
-Maple Mini Pin 1 <--> I2C Display SCL
+Maple Mini Pin 1 <--> I2C Display SCL 
+
 =================================================================*/
 
 // Example Settings 
@@ -36,7 +37,6 @@ Maple Mini Pin 1 <--> I2C Display SCL
 #include <ClickEncoder.h>
 
 
-
 //Create STM32 Timer 
 	#define TIMER_RATE 1000    // in microseconds; should give 1 millisecond  toggles
 
@@ -47,7 +47,7 @@ Maple Mini Pin 1 <--> I2C Display SCL
 
 #ifdef WITH_LCD
 
-#include "src/SSD1306_i2c.h"
+#include <SSD1306_i2c.h>
 #include <Adafruit_GFX.h>
 
 //Setup I2C interface
