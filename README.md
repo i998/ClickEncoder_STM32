@@ -1,6 +1,8 @@
 
 ## Overview:
-Updated ClickEncoder library by 0xPIT so it can be used with STM32. Includes an example which utilises native STM32 timer and a small OLED Display (optional). 
+Updated ClickEncoder library by 0xPIT so it can be used with STM32. 
+
+Includes an example which utilises native STM32 timer and a small OLED Display (optional). 
 
 ## Hardware:
 Successfully tested with:
@@ -13,7 +15,7 @@ Successfully tested with:
 
    
 ## License:
-derived from [0xPIT/encoder] (https://github.com/0xPIT/encoder) so apply appropriate limitations/licenses
+derived from [0xPIT/encoder](https://github.com/0xPIT/encoder) so apply appropriate limitations/licenses
 
 
 ## Donation:
